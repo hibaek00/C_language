@@ -20,13 +20,13 @@ int main(void)
 	if (sel == 1)
 	{
 		printf("¼·¾¾À» ÀÔ·ÂÇÏ¼¼¿ä : \n");
-		scanf("lf", &num);
+		scanf("%lf", &num);
 		printf("º¯È­µÈ È­¾¾: %f \n", CelToFah(num));
 	}
 	else if (sel == 2)
 	{
 		printf("È­¾¾À» ÀÔ·ÂÇÏ¼¼¿ä : \n");
-		scanf("lf", &num);
+		scanf("%lf", &num);
 		printf("º¯È­µÈ ¼·¾¾: %f \n ", FahToCel(num));
 	}
 	else
